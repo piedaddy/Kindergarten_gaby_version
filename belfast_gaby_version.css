@@ -1,0 +1,276 @@
+<<<<<<< HEAD
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto; 
+    margin: 0;
+}
+
+nav {
+    background-color: white;
+}
+
+.container{
+    text-align: right;
+    padding:10px;
+    margin: 0px 30px 0px 10px;
+
+
+}
+.container a {
+    text-decoration: none;
+    padding: 0px 20px;
+    color: black;
+
+}
+h1, h2 {
+    font-weight: 900;
+}
+
+.heading {
+    position: relative; 
+    height:25rem;
+    background-image: url("/Kindergarten/banner.jpg") center;
+}
+.heading img{
+    width:100%;    
+}
+h1{
+    color:white;
+    font-size: 2.5em;
+    position: absolute;
+    margin: 100px;
+    padding-left:120px;
+    border-bottom: 3px solid white;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h1 .yellow {
+    color: #FFE964;
+   
+}
+h1 .red {
+    color: #FF523D;
+    
+}
+h1  .blue {
+    color: #223C88;
+}
+
+h1 > p {
+    margin-bottom: 0px;
+    padding:0px;
+    display:block;
+}
+
+.mission{
+    background-color: #FFE964;
+    text-align: center;
+    padding: 50px;
+}
+.mission div {
+   padding: 0px 100px;
+    margin: 20px 100px;
+}
+
+
+.aboutus{
+    background-color: white;
+    margin: 20px 100px;
+    padding: 50px;
+}
+
+
+
+.ourteam {
+    background-color: #FF523D;
+    color: white;
+    padding-bottom: 50px;
+
+}
+
+
+.ourteam h2 {
+    margin: 20px 100px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.ourteam img {
+    width:90px;
+    margin-top: 30px;
+}
+
+.ourteam .author {
+    text-align: center;
+}
+
+.author .name {
+    font-weight: bold;
+
+}
+
+.author p {
+    font-size: .8em;
+}
+
+
+
+
+footer {
+   background-color: #223C88;
+   color: white;
+   height: 300px;
+
+}
+
+footer h2 {
+    margin: 0px 100px;
+    padding: 50px;
+
+}
+footer .contact {
+    margin: 0px 100px;
+    font-size: .8em;
+    padding-left: 50px;
+    
+}
+
+.contact p {
+    padding-top: 0px;
+    margin: .5px;
+
+}
+
+.contact span {
+    margin-top: 50px;
+    font-weight: bold;
+}
+=======
+
+html {
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+
+h1, h2 {
+    font-weight: 900;
+    padding-top: 40px;
+}
+
+h1 {
+    color: white;
+    font-size: 3em;
+}
+
+h2 {
+   font-size: 2em;
+}
+
+.author img {
+    max-width: 7em;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.author p:first-of-type {
+    color: white;
+    font-weight: bold;
+    text-align: center; 
+    padding: 10px 0px 5px 0px;
+}
+.author p:last-of-type {
+    color: white;
+    text-align: center; 
+    padding: 0px 0px 30px 0px;
+    font-size: 0.7em;
+}
+
+.header-row {
+    display: block;
+}
+
+.header-row:nth-child(1) > span {
+    color: #FFE964; 
+}
+
+.header-row:nth-child(2) > span {
+    color: #FF523D; 
+}
+
+.header-row:nth-child(3) > span {
+    color: #223C88; 
+}
+
+.header-row:nth-child(3) {
+    border-bottom: 4px solid white;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.headline {
+    background-image: url("graphics/banner.jpg");
+    min-height: 40vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.mission {
+    background-color: #FFE964;
+    text-align: center;
+    min-height: 200px;
+}
+
+.mission h2, p {
+    width: 60vw;
+    margin: 0 auto;
+    padding: 20px;
+} 
+
+.aboutus {
+    background-color: white;
+    min-height: 300px;
+}
+
+.ourteam {
+    background-color: #FF523D;
+}
+
+.ourteam h2, footer h2 {
+    color: white;
+}
+
+footer {
+    background-color: #223C88;
+}
+
+h1, h2, p, .ourteam img {
+    width: 60vw;
+    margin: 0 auto;
+}
+
+footer span span {
+    color: white;
+    display: block;
+}
+
+strong {
+    margin-top: 20px;  
+    display: inline-block;
+}
+
+.mission, .aboutus, .ourteam, footer {
+    padding: 30px 0;
+}
+
+>>>>>>> b770211fd6c05ec745d936220814d04cc4e8e29b
